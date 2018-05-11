@@ -1,24 +1,24 @@
 {
-  "name": "stream-bot",
+  "name": "LiveRadioBot",
   "version": "0.1.0",
-  "description": "Simple music and radio streaming bot for Discord",
+  "description": "Simple radio streaming bot for Discord",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/casperlofgren/stream-bot.git"
+    "url": "git+https://github.com/GeorgeBroadley/LiveRadioBot.git"
   },
-  "author": "Casper Löfgren",
+  "author": "George Broadley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/casperlofgren/stream-bot/issues"
+    "url": "https://github.com/GeorgeBroadley/LiveRadioBot/issues"
   },
-  "homepage": "https://github.com/casperlofgren/stream-bot#readme",
+  "homepage": "https://github.com/GeorgeBroadley/LiveRadioBot#readme",
   "dependencies": {
-    "discord.js": "^6.0.x",
-    "soundcloudr": "^1.1.0",
-    "spotify-web": "git+https://github.com/mattyway/node-spotify-web.git"
+    "discord.js": "^11.0.x",
+    "forever": "^0.15.3",
+    "opusscript": "0.0.6"
   }
 }

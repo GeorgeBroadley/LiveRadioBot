@@ -1,8 +1,6 @@
 {
-    "email" : "",
-    "password" : "",
 	"tokenID" : "",
 	"ownerID" : "",
-	"BindToChannel" : "",
-	"AutoJoinVoice" : ""
+	"channelID" : "",
+  "radioURL" : ""
 }
