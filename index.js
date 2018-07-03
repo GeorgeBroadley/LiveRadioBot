@@ -24,7 +24,7 @@ bot.on("message", function (message) {
     var command = args.shift().toLowerCase();
 
     switch(command) {
-    case (rejoin) :
+    case ("rejoin") :
         bot.channels.get(config.channelID).join().then(connection => {
             connection.playStream(config.radioURL);
         });
