@@ -2,6 +2,11 @@
   "name": "LiveRadioBot",
   "version": "0.1.0",
   "description": "Simple radio streaming bot for Discord",
+  "homepage": "https://github.com/brdly/LiveRadioBot",
+  "author": {
+      "name": "George Broadley",
+      "email": "projects@brdly.io"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
